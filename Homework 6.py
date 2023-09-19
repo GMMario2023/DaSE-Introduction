@@ -1,0 +1,33 @@
+w=input("w=")
+x=input("x=")
+y=input("y=")
+z=input("z=")
+w=int(w)
+x=int(x)
+y=int(y)
+z=int(z)
+if(w<x):
+    t=w
+    w=x
+    x=t
+if(x<y):
+    t=x
+    x=y
+    y=t
+if(y<z):
+    t=y
+    y=z
+    z=t
+if(w<x):
+    t=w
+    w=x
+    x=t
+if(x<y):
+    t=x
+    x=y
+    y=t
+if(w<x):
+    t=w
+    w=x
+    x=t
+print(w,x,y,z)
